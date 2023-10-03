@@ -161,7 +161,7 @@ def getRoomFirst():
 
     #bestroom = f'//*[@id="eq-time-grid"]/div[2]/div/table/tbody/tr/td[3]/div/div/div/table/tbody/tr[29]/td/div/div[2]/div[5]/a' #10am when library opens at 800am
 
-    bestroom = f'//*[@id="eq-time-grid"]/div[2]/div/table/tbody/tr/td[3]/div/div/div/table/tbody/tr[29]/td/div/div[2]/div[6]/a'  #10am when library opens at 730am
+    bestroom = f'//*[@id="eq-time-grid"]/div[2]/div/table/tbody/tr/td[3]/div/div/div/table/tbody/tr[29]/td/div/div[2]/div[17]/a'  #10am when library opens at 730am
     bestRoom_element = wait.until(EC.element_to_be_clickable((By.XPATH, bestroom)))
     # bestRoom = wait.until(EC.element_to_be_clickable((By.XPATH, test)))
     # driver.execute_script("arguments[0].scrollIntoView();", bestRoom)
